@@ -70,3 +70,33 @@ Videos/Watched:
 
 Videos/Watched:
 ![Screenshot from 2023-06-05 02-13-41](https://github.com/4924ai/final_assignment/assets/115356787/494ca4a4-06ea-41ed-9eba-f9545458b11a)
+ubuntu@23:~$ cd Videos
+ubuntu@23:~/Videos$ cp blockbuster1.ogg blockbuster3.ogg
+cp: cannot stat 'blockbuster1.ogg': No such file or directory
+ubuntu@23:~/Videos$ ls -l
+total 4
+drwxrwxr-x 2 ubuntu ubuntu 4096  6월  5 12:07 Watched
+ubuntu@23:~/Videos$ 
+ubuntu@23:~/Videos$ cd ../Documents
+ubuntu@23:~/Documents$ cp thesis_chapter1.odf thesis_chapter2.odf Thesis ProjectX
+cp: cannot stat 'thesis_chapter1.odf': No such file or directory
+cp: cannot stat 'thesis_chapter2.odf': No such file or directory
+cp: -r not specified; omitting directory 'Thesis'
+ubuntu@23:~/Documents$ cd Videos
+bash: cd: Videos: No such file or directory
+ubuntu@23:~/Documents$ cp /etc/hostname
+cp: missing destination file operand after '/etc/hostname'
+Try 'cp --help' for more information.
+ubuntu@23:~/Documents$ cat hostname
+cat: hostname: No such file or directory
+ubuntu@23:~/Documents$ cd ../Documents
+ubuntu@23:~/Documents$ cp thesis_Chapter1.odf thesis_chapter2.odf Thesis ProjectX
+cp: cannot stat 'thesis_Chapter1.odf': No such file or directory
+cp: cannot stat 'thesis_chapter2.odf': No such file or directory
+cp: -r not specified; omitting directory 'Thesis'
+ubuntu@23:~/Documents$ ls Thesis ProjectX
+ProjectX:
+
+Thesis:
+Chapter1  Chapter2  Chapter3
+
