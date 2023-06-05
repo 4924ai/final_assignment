@@ -67,5 +67,6 @@ Videos:
 Watched
 
 Videos/Watched:
-/home/ubuntu/Pictures/Screenshot from 2023-06-05 02-13-41.png
+
 Videos/Watched:
+![Screenshot from 2023-06-05 02-13-41](https://github.com/4924ai/final_assignment/assets/115356787/494ca4a4-06ea-41ed-9eba-f9545458b11a)
